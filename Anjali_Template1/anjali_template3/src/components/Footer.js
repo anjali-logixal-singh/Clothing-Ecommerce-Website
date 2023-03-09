@@ -23,16 +23,14 @@ export default function Footer(props){
         <div class="footer footer2 container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
-                    <p class="text-secondary mr-3 d-inline">Blog</p>
-                    <p class="text-secondary mr-3 d-inline">FAQs</p>
-                    <p class="text-secondary mr-3 d-inline">Contact us</p>
+                    {footer.title.map((item, i)=>(
+                    <p class="text-secondary mr-3 d-inline">{item}</p>
+                    ))}
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 text-right">
-                    <i class="f-icons fab fa-facebook-f pr-5"></i>
-                    <i class="f-icons fab fa-twitter pr-5"></i>
-                    <i class="f-icons fab fa-instagram pr-5"></i>
-                    <i class="f-icons fab fa-skype pr-5"></i>
-                    <i class="f-icons fab fa-pinterest"></i>
+                    {footer.icons.map((item, i)=>(
+                        <i class={item}></i>
+                    ))}
                 </div>
             </div>
         </div>
