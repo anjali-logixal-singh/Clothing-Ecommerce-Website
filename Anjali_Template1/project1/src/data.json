@@ -1,0 +1,482 @@
+{
+  "navbar": {
+    "Header1": [
+      {
+        "text": "Call: +0123 456 789",
+        "icon": "las la-phone",
+        "isNumber": true
+      },
+      {
+        "isIcons": true,
+        "icons": [
+          { "icon": "lab la-facebook-f", "link": "https://www.facebook.com/" },
+          { "icon": "lab la-twitter", "link": "https://www.twitter.com" },
+          { "icon": "lab la-pinterest-p", "link": "https://www.pinterest.com" },
+          { "icon": "lab la-instagram", "link": "https://www.instagram.com" }
+        ]
+      },
+      { "text": "Login/ Register", "icon": "las la-user", "isLogin": true },
+      {
+        "dropdown": [
+          { "text": "USD", "dropdownOpt": ["Eur", "Usd"] },
+          { "text": "Eng", "dropdownOpt": [" English", "French", "Spanish"] }
+        ]
+      }
+    ],
+    "Header2": [
+      {
+        "isSearch": true,
+        "placeholder": "Search product...",
+        "icon": "las la-search text-2xl"
+      },
+      { "isLogo": true, "text": "LOGIXAL" },
+      {
+        "popUps": [
+          { "text": "My Wishlist", "icon": "lar la-heart text-2xl px-2" },
+          {
+            "text": "My Cart",
+            "icon": "las la-shopping-cart text-2xl px-2",
+            "isPopUp": true
+          }
+        ]
+      }
+    ],
+    "Header3": {
+      "dropdown": [
+        {
+          "text": "HOME",
+          "dropdownBtn": [
+            {
+              "head": "WOMEN'S",
+              "list": [
+                "Shirts",
+                "T-Shirts",
+                "Tops",
+                "Dresses",
+                "Jeans",
+                "Sandals",
+                " Shoes"
+              ]
+            },
+            {
+              "head": "MEN'S",
+              "list": ["Shirts", "T-Shirts", "Jeans", " Shoes"]
+            },
+            {
+              "head": "KID'S",
+              "list": ["Shirts", "T-Shirts", "Jeans", " Shoes"]
+            },
+            {
+              "head": "ACCESSORIES",
+              "list": ["Watch", "Handbag", "Jewellery", "Phonecase"]
+            }
+          ]
+        },
+        {
+          "text": "SHOP",
+          "dropdownBtn": [
+            {
+              "head": "",
+              "list": [" Women's", "Men's", "Kid's", " Accessories"]
+            }
+          ]
+        },
+        {
+          "text": "PRODUCT",
+          "dropdownBtn": [
+            {
+              "head": "",
+              "list": [
+                "Shirts",
+                "T-Shirts",
+                "Tops",
+                "Dresses",
+                "Jeans",
+                "Sandals",
+                " Shoes"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PAGES",
+          "dropdownBtn": [
+            { "head": "", "list": ["About", "Login", "Contact", "FAQs"] }
+          ]
+        },
+        {
+          "text": "BLOG",
+          "dropdownBtn": [
+            { "head": "", "list": ["2023", "2022", "2021", "2020"] }
+          ]
+        }
+      ]
+    }
+  },
+
+  "main": {
+    "slides": [
+      {
+        "img": "img/slide-1.jpg",
+        "imgSm":"img/slide-1(1).jpg",
+        "text": { "header": "NEW LOOKBOOK", "para": "YOU'RE LOOKING GOOD" },
+        "button": "DISCOVER MORE"
+      },
+      {
+        "img": "img/slide-2.jpg",
+        "imgSm":"img/slide-1(2).jpg",
+        "text": { "header": "MAGESTIC DEALS", "para": "DON'T MISS" },
+        "button": "DISCOVER MORE"
+      }
+    ],
+    "Banner": [
+      {
+        "img": "/img/banner-1.jpg",
+        "title": "NEW IN",
+        "heading": "WOMEN'S",
+        "btn": "SHOP NOW"
+      },
+      {
+        "img": "/img/banner-2 (1).jpg",
+        "title": "NEW IN",
+        "heading": "MEN'S",
+        "btn": "SHOP NOW"
+      }
+    ]
+  },
+
+  "footer": [
+    {
+      "isMedia": true,
+      "heading": "ABOUT LOGIXAL",
+      "para": "Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.",
+      "media": [
+        {
+          "icon": "lab la-facebook-f text-gray-500 hover:text-black",
+          "link": "https://www.facebook.com/"
+        },
+        {
+          "icon": "lab la-instagram text-gray-500 hover:text-black",
+          "link": "https://www.instagram.com"
+        },
+        {
+          "icon": "lab la-twitter text-gray-500 hover:text-black",
+          "link": "https://www.twitter.com"
+        },
+        {
+          "icon": "lab la-youtube text-gray-500 hover:text-black",
+          "link": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "heading": "USEFUL LINKS",
+      "list": [
+        "About Logixal",
+        " How to shop on Logixal",
+        "FAQ",
+        "Contact us",
+        "Log in"
+      ]
+    },
+    {
+      "heading": "CUSTOMER SERVICE",
+      "list": [
+        " Payment Methods",
+        "Money-back guarantee!",
+        "Returns",
+        "Shipping",
+        "Terms and conditions",
+        "Privacy Policy"
+      ]
+    },
+    {
+      "heading": "MY ACCOUNT",
+      "list": ["Sign In", "View Cart", "My Wishlist", "Track my order", "Help"]
+    },
+    {
+      "isCopyRight": true,
+      "year": 2023,
+      "pay": "/img/payments.png",
+      "logo": "LOGIXAL"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "img1": "/img/product-1-1.jpg",
+      "img2": "/img/product-1-2.jpg",
+      "product": "Clothing",
+      "name": "Denim Jackets",
+      "price": 19.49,
+      "rating": 0,
+      "type": "women",
+      "prevPrice": "32.87"
+    },
+    {
+      "id": 2,
+      "img1": "/img/product-2-1.jpg",
+      "img2": "/img/product-2-2.jpg",
+      "product": "Footwear",
+      "name": "Sandals",
+      "price": 12.87,
+      "rating": 4,
+      "type": "women",
+      "prevPrice": "65.90"
+    },
+   
+    {
+      "id": 3,
+      "img1": "/img/product-14-1.jpg",
+      "img2": "/img/product-14-2.jpg",
+      "product": "Clothing",
+      "name": "Linen Trousers",
+      "price": 331.95,
+      "rating": 3,
+      "type": "men",
+      "prevPrice": "42.67"
+    },
+    {
+      "id": 4,
+      "img1": "/img/product-6-1.jpg",
+      "img2": "/img/product-6-2.jpg",
+      "product": "Footwear",
+      "name": "Sandals",
+      "price": 12.87,
+      "rating": 3,
+      "type": "women",
+      "prevPrice": "98"
+    },
+    {
+      "id": 5,
+      "img1": "/img/product-7-1.jpg",
+      "img2": "/img/product-7-2.jpg",
+      "product": "Accessories",
+      "name": "Leather Bag",
+      "price": 64.59,
+      "rating": 5,
+      "type": "women",
+      "prevPrice": "65.90"
+    },
+    {
+      "id": 6,
+      "img1": "/img/product-20-1.jpg",
+      "img2": "/img/product-20-2.jpg",
+      "product": "Footwear",
+      "name": "Brown Sneakers",
+      "price": 443.95,
+      "rating": 4,
+      "type": "men",
+      "prevPrice": "3232.847"
+    },
+    {
+      "id": 7,
+      "img1": "/img/product-18-1.jpg",
+      "img2": "/img/product-18-2.jpg",
+      "product": "Clothing",
+      "name": "Linen Shirts",
+      "price": 34.95,
+      "rating": 2,
+      "type": "men",
+      "prevPrice": "32.87"
+    },
+    {
+      "id": 8,
+      "img1": "/img/product-19-1.jpg",
+      "img2": "/img/product-19-2.jpg",
+      "product": "Clothing",
+      "name": "Linen Trousers",
+      "price": 64.95,
+      "rating": 4,
+      "type": "men",
+      "prevPrice": "24.82"
+    },
+    {
+      "id": 9,
+      "img1": "/img/product-22-1.jpg",
+      "img2": "/img/product-22-2.jpg",
+      "product": "Clothing",
+      "name": "Cotton T-Shirt",
+      "price": 354.94,
+      "rating": 2,
+      "type": "men",
+      "prevPrice": "24.66"
+    },
+    
+    {
+      "id": 10,
+      "img1": "/img/product-9-1.jpg",
+      "img2": "/img/product-9-2.jpg",
+      "product": "Clothing",
+      "name": "Denim Jackets",
+      "price": 19.49,
+      "rating": 4,
+      "type": "women",
+      "prevPrice": "32.87"
+    },
+    {
+      "id": 11,
+      "img1": "/img/product-24-1.jpg",
+      "img2": "/img/product-24-2.jpg",
+      "product": "Accessories",
+      "name": "Yoga Mat",
+      "price": 32.95,
+      "rating": 5,
+      "type": "women",
+      "prevPrice": "32.87"
+    },
+    
+    {
+      "id": 12,
+      "img1": "/img/product-10-1.jpg",
+      "img2": "/img/product-10-2.jpg",
+      "product": "Clothing",
+      "name": "Denim Jackets",
+      "price": 19.49,
+      "rating": 4,
+      "type": "women",
+      "prevPrice": "65.90"
+    },
+    {
+      "id": 13,
+      "img1": "/img/product-5-1.jpg",
+      "img2": "/img/product-5-2.jpg",
+      "product": "Clothing",
+      "name": "Denim Jackets",
+      "price": 19.49,
+      "rating": 4,
+      "type": "women",
+      "prevPrice": "32.87"
+    },
+    {
+      "id": 14,
+      "img1": "/img/product-11-1.jpg",
+      "img2": "/img/product-11-2.jpg",
+      "product": "Footwear",
+      "name": "Sandals",
+      "price": 12.87,
+      "rating": 3,
+      "type": "women",
+      "prevPrice": "98"
+    },
+    {
+      "id": 15,
+      "img1": "/img/product-12-1.jpg",
+      "img2": "/img/product-12-2.jpg",
+      "product": "Clothing",
+      "name": "Linen Trousers",
+      "price": 34.95,
+      "rating": 2,
+      "type": "women",
+      "prevPrice": "32.87"
+    },
+
+    {
+      "id": 16,
+      "img1": "/img/product-3-1.jpg",
+      "img2": "/img/product-3-2.jpg",
+      "product": "Clothing",
+      "name": "Denim Jackets",
+      "price": 19.49,
+      "rating": 4,
+      "type": "women",
+      "prevPrice": "98.09"
+    },
+    {
+      "id": 17,
+      "img1": "/img/product-21-1.jpg",
+      "img2": "/img/product-21-2.jpg",
+      "product": "Clothing",
+      "name": "Linen Trousers",
+      "price": 76.65,
+      "rating": 2,
+      "type": "men",
+      "prevPrice": "37.87"
+    },
+    {
+      "id": 18,
+      "img1": "/img/product-4-1.jpg",
+      "img2": "/img/product-4-2.jpg",
+      "product": "Clothing",
+      "name": "Linen Trousers",
+      "price": 34.95,
+      "rating": 2,
+      "type": "women",
+      "prevPrice": "65.90"
+    },
+    {
+      "id": 19,
+      "img1": "/img/product-23-1.jpg",
+      "img2": "/img/product-23-2.jpg",
+      "product": "Clothing",
+      "name": "Cotton T-Shirt",
+      "price": 544.56,
+      "rating": 2,
+      "type": "men",
+      "prevPrice": "357.87"
+    },
+    
+    {
+      "id": 20,
+      "img1": "/img/product-17-1.jpg",
+      "img2": "/img/product-17-2.jpg",
+      "product": "Footwear",
+      "name": "Pink Sandals",
+      "price": 34.95,
+      "rating": 3,
+      "type": "women",
+      "prevPrice": "54.87"
+    },
+    {
+      "id": 21,
+      "img1": "/img/product-16-1.jpg",
+      "img2": "/img/product-16-2.jpg",
+      "product": "Accessories",
+      "name": "Linen Trousers",
+      "price": 34.95,
+      "rating": 2,
+      "type": "men",
+      "prevPrice": "32.87"
+    },
+    {
+      "id": 22,
+      "img1": "/img/product-15-1.jpg",
+      "img2": "/img/product-15-2.jpg",
+      "product": "Accessories",
+      "name": "Sunglasses",
+      "price": 64.25,
+      "rating": 2,
+      "type": "women",
+      "prevPrice": "25.82"
+    },
+    {
+      "id": 23,
+      "img1": "/img/product-13-1.jpg",
+      "img2": "/img/product-13-2.jpg",
+      "product": "Footwear",
+      "name": "Trainers",
+      "price": 65.95,
+      "rating": 4,
+      "type": "men",
+      "prevPrice": "82.84"
+    },
+    {
+      "id": 24,
+      "img1": "/img/product-8-1.jpg",
+      "img2": "/img/product-8-2.jpg",
+      "product": "Clothing",
+      "name": "Denim Jackets",
+      "price": 65.95,
+      "rating": 4,
+      "type": "women",
+      "prevPrice": "82.84"
+    }
+  ],
+
+  "myCart" :
+  [
+    
+  ]
+
+}
